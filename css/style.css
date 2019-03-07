@@ -26,8 +26,8 @@ p {
 }
 
 .profile-pic {
-	box-shadow: 0px 4px 6px 2px lightgrey;
-  border-radius: 50%
+ 	/*box-shadow: 0px 4px 6px 2px lightgrey;*/
+    border-radius: 50%
 }
 
 .m-t-1 {
@@ -54,13 +54,13 @@ nav {
 }
 
 .navbar-text a.navbar-link {
-	color:white;
+	color:rgb(139, 218, 255);
 	font-size: 1.3em;
 	font-weight: bolder;
 }
 
 .row-grey {
-	background-color: rgb(197, 197, 197);
+	background-color: rgb(186, 186, 186);
 	-webkit-clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0% 100%);
 	clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0% 100%);
 	padding: 65px 10px;
@@ -107,3 +107,94 @@ nav {
 	color: white;
 	background: #3d7140;
 }
+
+.wrap-text{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	margin: auto;
+} 
+
+.wrap {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	margin: auto auto;
+}
+.quart {
+	position: absolute;
+	height: 50%;
+	width: 50%;
+	background: rgba(123, 123, 123, 0.1);
+	transition: all 0.4s;
+}
+.quart:first-child {
+	top: 0;
+	left: 0;
+}
+.quart:nth-child(2) {
+	top: 0;
+	left: 50%;
+}
+.quart:nth-child(3) {
+	top: 50%;
+	left: 0;
+}
+.quart:nth-child(4) {
+	top: 50%;
+	left: 50%;
+}
+.center {
+	height: 80%;
+	width: 80%;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	background: lightgray;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 160px;
+}
+.quart:hover {
+	background: rgb(204, 204, 204);
+}
+
+.fancy_title span{
+	font-size: 22px;
+	color: rgb(226, 226, 226);
+	height: 260px;
+	position: absolute;
+	width: 260px;
+	margin-top: -5px;
+	margin-left: -5px;
+	left: 0;
+	top: 0;
+	transform-origin: center center;
+}
+
+
+.char1 { transform: rotate(36deg); }
+.char2 { transform: rotate(42deg); }
+.char3 { transform: rotate(48deg); }
+.char4 { transform: rotate(54deg); }
+
+.char6 { transform: rotate(126deg); }
+.char7 { transform: rotate(132deg); }
+.char8 { transform: rotate(138deg); }
+.char9 { transform: rotate(144deg); }
+
+.char11 { transform: rotate(216deg); }
+.char12 { transform: rotate(222deg); }
+.char13 { transform: rotate(228deg); }
+.char14 { transform: rotate(234deg); }
+
+.char16 { transform: rotate(300deg); }
+.char17 { transform: rotate(306deg); }
+.char18 { transform: rotate(312deg); }
+.char19 { transform: rotate(318deg); }
+.char20 { transform: rotate(324deg); }
+.char21 { transform: rotate(330deg); }
