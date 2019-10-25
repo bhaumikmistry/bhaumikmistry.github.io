@@ -19,10 +19,26 @@ h1, h2, h3, h4, h5{
 	font-family: 'Open Sans', sans-serif;
 }
 
+.italic
+{
+	font-style: italic;
+}
+
+.gray-light
+{
+	color:rgb(152, 155, 173) !important;
+}
+
+
 p {
 	color: #4A4E69;
 	font-weight: 300;
 	font-family: 'Open Sans', sans-serif;
+}
+
+.float-left
+{
+	float: left;
 }
 
 .profile-pic {
@@ -60,7 +76,7 @@ nav {
 }
 
 .row-grey {
-	background-color: rgb(202, 202, 202);
+	background-color: rgb(240, 240, 240);
 	-webkit-clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0% 100%);
 	clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0% 100%);
 	padding: 65px 10px;
@@ -84,6 +100,11 @@ nav {
 	/*padding: 10% 0;*/
 }
 
+.heading-h2
+{
+	color: black;
+}
+
 .row-tools {
   padding: 50px 0;
 }
@@ -97,15 +118,15 @@ nav {
 .btn-launch {
 	width:100%;
 	max-width:200px;
-	background-color: #549657;
+	background-color: #dadada;
 	color:white;
 	box-shadow: 0px 2px 5px 1px darkgrey;
 }
 
 .btn-launch:hover,
 .btn-launch:focus {
-	color: white;
-	background: #3d7140;
+	color: black;
+	background: lightslategray;
 }
 
 .wrap-text{
@@ -159,6 +180,13 @@ nav {
 	text-align: center;
 	line-height: 160px;
 }
+
+.row-width{
+	margin: auto auto;
+	width: 80%;
+	max-width: 500px;
+}
+
 .quart:hover {
 	background: rgb(204, 204, 204);
 }
@@ -198,3 +226,164 @@ nav {
 .char19 { transform: rotate(318deg); }
 .char20 { transform: rotate(324deg); }
 .char21 { transform: rotate(330deg); }
+
+/* unvisited link */
+a:link {
+	color: lightslategray;
+  }
+  
+  /* visited link */
+  a:visited {
+	color: lightslategray;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: #4A4E69;
+  }
+  
+  /* selected link */
+  a:active {
+	color: #4A4E69;
+  }
+
+  .mytable {
+	width: 100%;
+	background-color: white;
+	border-collapse: separate;
+	border-spacing:5px 5px;
+  }
+  .mytable-head {
+	border: 1px solid white;
+	margin-bottom: 0;
+	padding-bottom: 0;
+  }
+  .mytable-head td {
+	border: 1px solid white;
+  }
+  .mytable-body {
+	border: 1px solid white;
+	border-top: 0;
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+  }
+  .mytable-body td {
+	border: 1px solid white;
+	border-top: 0;
+  }
+  .mytable-footer {
+	border: 1px solid white;
+	border-top: 0;
+	margin-top: 0;
+	padding-top: 0;
+  }
+  .mytable-footer td {
+	border: 1px solid white;
+	border-top: 0;
+  }
+
+  .right-text
+  {
+	  text-align: right;
+  }
+
+  .color-skills  {
+	background: #648880;
+  	background: linear-gradient(to right,  rgb(126, 126, 126) 5%, #c7c7c7 25%,rgb(226, 226, 226) 75%,white 85%);
+}
+
+.gallery {
+	display: grid;
+	width: 100%;;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 1px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.gallery__img:hover {
+	-ms-transform: scale(2.5); /* IE 9 */
+	-webkit-transform: scale(2.5); /* Safari 3-8 */
+	transform: scale(2.5); 
+ }
+
+.github-timeline:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5); 
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery__item--4 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery__item--5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.gallery__item--6 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.gallery__item--7 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.gallery__item--8 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+a.row-footer-link:link {
+	color: salmon;
+  }
+  
+  /* visited link */
+a.row-footer-link:visited {
+color: salmon;
+}
+
+/* mouse over link */
+a.row-footer-link:hover {
+color: royalblue;
+}
+
+/* selected link */
+a.row-footer-link:active {
+color: greenyellow;
+}
