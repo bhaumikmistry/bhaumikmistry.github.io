@@ -19,6 +19,17 @@ h1, h2, h3, h4, h5{
 	font-family: 'Open Sans', sans-serif;
 }
 
+.italic
+{
+	font-style: italic;
+}
+
+.gray-light
+{
+	color:rgb(152, 155, 173) !important;
+}
+
+
 p {
 	color: #4A4E69;
 	font-weight: 300;
@@ -60,7 +71,7 @@ nav {
 }
 
 .row-grey {
-	background-color: rgb(202, 202, 202);
+	background-color: rgb(240, 240, 240);
 	-webkit-clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0% 100%);
 	clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0% 100%);
 	padding: 65px 10px;
@@ -84,6 +95,11 @@ nav {
 	/*padding: 10% 0;*/
 }
 
+.heading-h2
+{
+	color: black;
+}
+
 .row-tools {
   padding: 50px 0;
 }
@@ -97,15 +113,15 @@ nav {
 .btn-launch {
 	width:100%;
 	max-width:200px;
-	background-color: #549657;
+	background-color: #dadada;
 	color:white;
 	box-shadow: 0px 2px 5px 1px darkgrey;
 }
 
 .btn-launch:hover,
 .btn-launch:focus {
-	color: white;
-	background: #3d7140;
+	color: black;
+	background: lightslategray;
 }
 
 .wrap-text{
@@ -159,6 +175,13 @@ nav {
 	text-align: center;
 	line-height: 160px;
 }
+
+.row-width{
+	margin: auto auto;
+	width: 80%;
+	max-width: 500px;
+}
+
 .quart:hover {
 	background: rgb(204, 204, 204);
 }
@@ -198,3 +221,23 @@ nav {
 .char19 { transform: rotate(318deg); }
 .char20 { transform: rotate(324deg); }
 .char21 { transform: rotate(330deg); }
+
+/* unvisited link */
+a:link {
+	color: lightslategray;
+  }
+  
+  /* visited link */
+  a:visited {
+	color: lightslategray;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: #4A4E69;
+  }
+  
+  /* selected link */
+  a:active {
+	color: #4A4E69;
+  }
