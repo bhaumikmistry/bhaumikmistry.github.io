@@ -13,7 +13,7 @@ body {
 	margin-top:100px;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5, ul{
 	color:#4A4E69 !important;
 	font-weight: 300;
 	font-family: 'Open Sans', sans-serif;
@@ -386,4 +386,9 @@ color: royalblue;
 /* selected link */
 a.row-footer-link:active {
 color: greenyellow;
+}
+
+ul.list-square
+{
+	list-style-type: square;
 }
